@@ -1,4 +1,5 @@
 package br.org.gestao.huginnmuninn.entities;
 
-public record Estoques() {
+public enum StatusEnvio {
+
 }

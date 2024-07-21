@@ -1,4 +1,17 @@
 package br.org.gestao.huginnmuninn.entities;
 
-public record Clientes() {
+import java.util.UUID;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public record Clientes(
+		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
+		String nome,
+		String email,
+		String telefone,
+		String endereco) {
 }

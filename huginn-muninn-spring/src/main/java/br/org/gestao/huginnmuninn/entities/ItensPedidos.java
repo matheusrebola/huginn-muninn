@@ -1,6 +1,6 @@
 package br.org.gestao.huginnmuninn.entities;
 
-import java.time.LocalDateTime;
+import java.math.BigDecimal;
 import java.util.UUID;
 
 import jakarta.persistence.Entity;
@@ -9,10 +9,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public record Pedidos(
+public record ItensPedidos(
 		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
-		LocalDateTime dataPedido,
-		StatusPedido statusPedido,
-		Integer total,
-		Clientes cliente) {
+		Integer quantidade,
+		BigDecimal precoUnitario,
+		BigDecimal subotal,
+		Pedidos pedido,
+		Produtos produto) {
+
 }

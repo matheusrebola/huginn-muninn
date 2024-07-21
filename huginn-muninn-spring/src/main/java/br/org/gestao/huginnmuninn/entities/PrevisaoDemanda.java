@@ -9,10 +9,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public record Pedidos(
+public record PrevisaoDemanda(
 		@Id @GeneratedValue(strategy = GenerationType.UUID) UUID id,
-		LocalDateTime dataPedido,
-		StatusPedido statusPedido,
-		Integer total,
-		Clientes cliente) {
+		LocalDateTime dataPrevisao,
+		Integer quantidadePrevista,
+		Produtos produto) {
+
 }
