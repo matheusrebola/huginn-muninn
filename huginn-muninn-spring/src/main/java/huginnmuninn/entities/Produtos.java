@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.entities;
+package huginnmuninn.entities;
 
 import java.math.BigDecimal;
 import java.util.UUID;

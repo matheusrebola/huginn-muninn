@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.services;
+package huginnmuninn.services;
 
 public class ProdutoService {
 }

@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.entities;
+package huginnmuninn.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

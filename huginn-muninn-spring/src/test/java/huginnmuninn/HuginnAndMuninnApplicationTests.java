@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn;
+package huginnmuninn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

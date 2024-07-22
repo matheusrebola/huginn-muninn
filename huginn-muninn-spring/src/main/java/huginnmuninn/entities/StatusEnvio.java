@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.entities;
+package huginnmuninn.entities;
 
 public enum StatusEnvio {
 

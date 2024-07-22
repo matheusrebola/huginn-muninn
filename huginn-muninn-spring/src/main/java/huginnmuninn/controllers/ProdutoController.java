@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.controllers;
+package huginnmuninn.controllers;
 
 public class ProdutoController {
 }

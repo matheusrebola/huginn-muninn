@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.mappers;
+package huginnmuninn.mappers;
 
 public class ProdutoMapper {
 }

@@ -1,4 +1,4 @@
-package br.org.gestao.huginnmuninn.dtos;
+package huginnmuninn.dtos;
 
 public record PedidoDto() {
 }
