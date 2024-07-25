@@ -1,13 +1,12 @@
-package huginnmuninn.repositorys;
+package huginnmuninn.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import huginnmuninn.entities.Envios;
+import huginnmuninn.entities.Clientes;
 
 @Repository
-public interface EnviosRepository extends JpaRepository<Envios, UUID>{
-
+public interface ClienteRepository extends JpaRepository<Clientes, UUID>{
 }

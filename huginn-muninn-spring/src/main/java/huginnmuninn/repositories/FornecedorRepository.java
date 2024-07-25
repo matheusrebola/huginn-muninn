@@ -1,4 +1,4 @@
-package huginnmuninn.repositorys;
+package huginnmuninn.repositories;
 
 import java.util.UUID;
 
