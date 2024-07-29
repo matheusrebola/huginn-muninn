@@ -1,4 +1,4 @@
 package huginnmuninn.services;
 
-public class EstoqueService {
+public class EnviosService {
 }
