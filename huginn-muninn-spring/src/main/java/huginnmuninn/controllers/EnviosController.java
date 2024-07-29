@@ -1,4 +1,4 @@
 package huginnmuninn.controllers;
 
-public class EstoqueController {
+public class EnviosController {
 }
