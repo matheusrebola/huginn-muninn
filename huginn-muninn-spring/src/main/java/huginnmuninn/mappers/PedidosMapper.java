@@ -1,4 +1,4 @@
 package huginnmuninn.mappers;
 
-public class PedidoMapper {
+public class PedidosMapper {
 }
