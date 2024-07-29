@@ -1,4 +1,4 @@
 package huginnmuninn.dtos;
 
-public record EstoqueDto() {
+public record EnviosDto() {
 }
