@@ -1,5 +1,8 @@
 package huginnmuninn.dtos;
 
-public record FornecedorCreateDto() {
+public record FornecedorCreateDto(
+		String nome,
+		String contato,
+		String endereco) {
 
 }
